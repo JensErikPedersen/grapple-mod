@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "grapplemod",
+	"version": "${version}",
+	"name": "Grapple Mod",
+	"description": "Tilføjer en gribekrog, som man kan skyde mod træer og klipper og trække sig selv op med.",
+	"authors": ["Jens"],
+	"license": "MIT",
+	"icon": "assets/grapplemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dk.jens.grapplemod.GrappleMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
